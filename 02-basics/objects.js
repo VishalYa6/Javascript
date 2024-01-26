@@ -3,12 +3,12 @@
 // object.create
 //objects literals
 
-const myVym = Symbol("key1");
+const mySym = Symbol("key1")
 
 const JsUser = {
   name: "Hitesh",
-  "full name": "Vishal Yadav",
-  [myVym]: "mykey1" ,
+ "full name": "Vishal Yadav",
+  mySym: "mykey1",
   age: 54,
   location: "jaipur",
   email: "hitesh@gmail.com",
@@ -19,7 +19,7 @@ const JsUser = {
 // console.log(JsUser.email);
 // console.log(JsUser["email"]);
 // console.log(JsUser["full name"]);
- console.log( JsUser[myVym]);
+console.log(typeof JsUser[mySym]);
 // JsUser.email = "vishal@gmail.com";
 // console.log(JsUser.email);
 // Object.freeze(JsUser);
