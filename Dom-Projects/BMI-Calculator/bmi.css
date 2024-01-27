@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(86, 70, 70);
+    margin: 10px;
+}
+#height{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#weight{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+button{
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(39, 124, 199);
+    border-radius: 10px;
+}
+#results{
+ color: black;
+}
