@@ -12,7 +12,10 @@ const betterExpensive = throttle(expensive, limit);
 const throttle =  (func , limit) =>{
     let flag = true;
     return function(){
+        let context = this
+        args = arguments
        if(flag){ 
+        func.apply((context, args))
         func();
         flag = false;
         setTimeout(()=>{
